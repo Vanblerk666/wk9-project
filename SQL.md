@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS posts (
 id SERIAL PRIMARY KEY,
-poster_id, TEXT
+poster_id TEXT,
 posttext TEXT
 
 );
